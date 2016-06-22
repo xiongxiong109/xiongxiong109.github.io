@@ -1,0 +1,60 @@
+/*reset*/
+*{margin: 0;padding: 0;}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+img{
+	vertical-align:middle;
+	outline: none;
+	border: none;
+}
+input{
+	border: none;
+	outline: none;
+}
+body{
+	font-family: "微软雅黑";
+}
+/*common*/
+
+.fl{float: left;}
+.fr{float: right;}
+.cl{
+	zoom: 1;
+}
+.cl:after{
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	clear: both;
+}
+
+/*延迟动画类*/
+.d1{
+	-webkit-animation-delay: 0.5s;
+	-moz-animation-delay: 0.5s;
+	-o-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+}
+.d2{
+	-webkit-animation-delay: 0.8s;
+	-moz-animation-delay: 0.8s;
+	-o-animation-delay: 0.8s;
+	animation-delay: 0.8s;
+}
+.d3{
+	-webkit-animation-delay: 1.4s;
+	-moz-animation-delay: 1.4s;
+	-o-animation-delay: 1.4s;
+	animation-delay: 1.4s;
+}
+.d4{
+	-webkit-animation-delay: 2.0s;
+	-moz-animation-delay: 2.0s;
+	-o-animation-delay: 2.0s;
+	animation-delay: 2.0s;
+}

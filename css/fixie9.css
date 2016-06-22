@@ -1,0 +1,9 @@
+/*ie9支持canvas动画,但是不支持animation,所以需要对css3 animation的样式做降级处理*/
+/*index*/
+.canvas-title-wrap{
+	color: #fff;
+}
+.canvas-title-wrap p{
+	opacity: 1;
+}
+/*index end*/

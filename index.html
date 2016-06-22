@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="Keywords" content="小小酱油熊,个人网站,前端,技术,html5,css3,js"/>
+	<meta name="Description" content="小小酱油熊的github个人站。我们的指尖拥有改变世界的力量"/>
+	<title>Bear Cambridge</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<script type="text/javascript" src="js/bw.js"></script>
+	<script type="text/javascript">
+		if (bw.mobile) {
+			window.location.href = './index_mobile.html';
+		}
+	</script>
+	<!--[if lte ie 8]>
+		<link rel="stylesheet" href="css/ltie8.css">
+		<script type="text/javascript"src="js/html5shiv.js"></script>
+		<script type="text/javascript">
+			window.onload=function(){
+				var div=document.createElement("div");
+				div.innerHTML="本站使用了一些html5与css3的技术,您所使用的ie浏览器版本过低,请使用高版本浏览器浏览,推荐使用<a href='http://dlsw.baidu.com/sw-search-sp/soft/9d/14744/ChromeStandalone_V44.0.2403.125_Setup.1438139684.exe'>谷歌浏览器</a><span id='barClose' style='float:right;padding-right:8px;cursor:pointer;'>x</span>";
+				div.style.background="#cdcd00";
+				div.style.padding="8px 0";
+				div.style.textAlign="center";
+				document.body.insertBefore(div,document.body.firstChild);
+
+				document.getElementById("barClose").onclick=function(){
+					document.body.removeChild(this.parentNode);
+				};
+			}
+		</script>
+	<![endif]-->
+	<!--[if ie 9]>
+		<link rel="stylesheet" href="css/fixie9.css">
+	<![endif]-->
+</head>
+<body>
+	<!-- header start -->
+	<header>
+		<nav class="cl">
+			<a href="index.html"><img src="img/logo.png" alt="熊熊109的头像" class="logo fl"></a>
+			<div class="nav-wrap fl cl">
+				<a href="index.html" class="active">首页</a>
+			</div>
+		</nav>
+	</header>
+	<!-- header end -->
+	<!-- canvas start -->
+		<div class="canvas-wrap">
+			<canvas id="canvas">
+				<img src="img/canvas.png" alt="canvas降级文本">
+			</canvas>
+			<div class="canvas-title-wrap">
+				<p>在这个人人都谈论梦想的时代</p>
+				<p>IT人更热衷于实现梦想</p>
+				<p>我们的指尖</p>
+				<p>拥有改变世界的力量</p>
+			</div>
+		</div>
+	<!-- canvas end -->
+	<!-- high Tech -->
+		<div class="tech-wrap">
+			<div class="img-wrap">
+				<img src="img/html5.png" alt="html5" class="html5 animated d1" data-animate="zoomIn">
+				<img src="img/css3.png" alt="css3" class="css3 animated d2" data-animate="zoomIn">
+				<img src="img/chrome.png" alt="chrome" class="chrome animated d4" data-animate="zoomInUp">
+				<img src="img/safari.png" alt="safari" class="safari animated d3" data-animate="fadeInRight">
+				<img src="img/firefox.png" alt="firefox" class="firefox animated d3" data-animate="fadeInLeft">
+				<div class="tech-text-wrap">
+					<p class="tech-text t1"><em style="color:#D780C5;">认真</em>,学无止境</p>
+					<p class="tech-text t2"><em style="color:#72A2D8;">年轻</em>,大有可为</p>
+					<div class="text-circle"></div>
+					<div class="text-circle"></div>
+					<div class="text-circle"></div>
+				</div>
+			</div>
+		</div>
+	<!-- high Tech end -->
+	<!-- timeLine start -->
+		<h3 class="timeLine-title">「既然做出了自己的选择,就应该义无反顾地走下去」</h3>
+		<div class="timeLine-wrap">	
+			<div class="timeLine-bar"></div>
+			<div class="timeLine-content">
+<!-- 				<div class="content-box">
+					<div class="timeLine-ball-wrap">
+						<span class="timeLine-ball"></span>
+						<span class="timeLine-date" data-time="201507">2015.07</span>
+					</div>
+					<p class="content animated fadeInUp">
+						上海房品汇网络信息技术有限公司[web前端工程师],负责新媒体微信运营相关的html5页面制作,html5微信小游戏制作。
+					</p>
+				</div> -->
+			</div>
+		</div>
+	<!-- timeLine end -->
+	<!-- skill start -->
+		<div class="skill-wrap">
+			<h4>前端战力分布图</h4>
+			<ul class="tab-btn">
+				<li class="active">HTML</li>
+				<li>CSS</li>
+				<li>JS</li>
+			</ul>
+			<!-- svg -->
+			<div id="table"></div>
+			<!-- svg end -->
+		</div>
+	<!-- skill end -->
+	<!-- show -->
+	<a href="show.html" class="show-btn">个人作品展示</a>
+	<!-- show end -->
+	<!-- go back -->
+		<div id="goBack">
+			TOP
+		</div>
+	<!-- go back end -->
+	<script type="text/javascript" src="lib/jquery/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="lib/createjs/easeljs-NEXT.min.js"></script>
+	<script type="text/javascript" src="lib/snap/snap.svg-min.js"></script>
+	<script type="text/javascript"src="js/index.js"></script>
+	<script type="text/javascript" src="js/timeLine.js"></script>
+	<script type="text/javascript" src="js/table.js"></script>
+</body>
+</html>

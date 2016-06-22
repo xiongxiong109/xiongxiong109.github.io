@@ -1,0 +1,31 @@
+/*index*/
+.canvas-title-wrap{
+	color: #fff;
+}
+.canvas-title-wrap p{
+	opacity: 1;
+}
+/*index end*/
+
+/*show*/
+.pro-content{
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+	background-color: #000;
+}
+.filter li i{
+	background: none;
+}
+.filter li i.weChat{
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/weChat.png', sizingMethod='scale')";
+}
+.filter li i.PC{
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/PC.png', sizingMethod='scale')";
+}
+.filter li i.plugin{
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/plugin.png', sizingMethod='scale')";
+}
+.filter li i.flex{
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/phone.png', sizingMethod='scale')";
+}
+/*show end*/
