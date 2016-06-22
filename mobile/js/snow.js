@@ -50,7 +50,7 @@
 		changeSnowArr();
 		// console.log(snowArr); //随机化snowArr数组
 		var img=new Image();
-		img.src='img/snow.png';
+		img.src='mobile/img/snow.png';
 		img.onload=function(){
 			cnt.clearRect(0,0,canvas.width,canvas.height);
 			for(var i=0;i<snowArr.length;i++){
